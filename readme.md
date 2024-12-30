@@ -29,67 +29,67 @@
 
 >  5.  **Go to the following file**
 
-> ```
-
->C:\Program Files\MySQL\MySQL Server 8.0\bin
-
->```
-
+  
+>
+```
+C:\Program Files\MySQL\MySQL Server 8.0\bin
+```
 >6.  **Open the file with terminal**
 
 >  7.  **Enter Following code**
 
-> ```mysql
-
->mysql -uroot -p
-
->```
+>
+ ```
+mysql -uroot -p
+```
+>
 
 >8.  **Enter the password of Data base**
 
 >9.  **Enter the following code || Copy/Paste it 😄**
 
->```sql
+>
+```
 
->create  database  name; // Any name of your own(Note it)
+create  database  name; // Any name of your own(Note it)
 
->use  name;
+use  name;
 
->CREATE  TABLE users
+CREATE  TABLE users
 
->ADD COLUMN username VARCHAR(50) PRIMARY KEY,
+ADD COLUMN username VARCHAR(50) PRIMARY KEY,
 
->ADD COLUMN password  VARCHAR(50) NOT NULL,
+ADD COLUMN password  VARCHAR(50) NOT NULL,
 
->ADD COLUMN balance DOUBLE DEFAULT  0,
+ADD COLUMN balance DOUBLE DEFAULT  0,
 
->ADD COLUMN phone VARCHAR(15),
+ADD COLUMN phone VARCHAR(15),
 
->ADD COLUMN email VARCHAR(255),
+ADD COLUMN email VARCHAR(255),
 
->ADD COLUMN gender ENUM('male', 'female', 'other'),
+ADD COLUMN gender ENUM('male', 'female', 'other'),
 
->ADD COLUMN wlimit DOUBLE DEFAULT  1000.0;
+ADD COLUMN wlimit DOUBLE DEFAULT  1000.0;
 
->CREATE  TABLE transactions
+CREATE  TABLE transactions
 
->  (
+  (
 
->  id INT AUTO_INCREMENT PRIMARY KEY,
+  id INT AUTO_INCREMENT PRIMARY KEY,
 
->  username VARCHAR(50) NOT NULL,
+  username VARCHAR(50) NOT NULL,
 
->  date  TIMESTAMP  DEFAULT CURRENT_TIMESTAMP,
+  date  TIMESTAMP  DEFAULT CURRENT_TIMESTAMP,
 
->  description  VARCHAR(255),
+  description  VARCHAR(255),
 
->  amount DOUBLE NOT NULL,
+  amount DOUBLE NOT NULL,
 
->  balance DOUBLE NOT NULL
+  balance DOUBLE NOT NULL
 
->  );
+  );
+```
 
->```
 
 >10.  **Open the all above files in code editor , Change the database name & Password**
 
