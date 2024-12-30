@@ -118,7 +118,7 @@ CREATE  TABLE transactions
 
 ***
 # Follow Me
-Follow me on [LinkedIn](www.linkedin.com/in/mayur-narkhede-a17a07320)
+Follow me on [LinkedIn](https://www.linkedin.com/in/mayur-narkhede-a17a07320/)
 
 Give me a ⭐ if U like
   
