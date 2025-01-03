@@ -1,4 +1,4 @@
-// No change in file
+//No change in file 
 
 import javax.swing.*;
 import java.awt.*;
@@ -31,6 +31,12 @@ class Apage extends JFrame {
         c.add(l2);
 
 
+        b1.addActionListener(
+                a->{
+                    new Landing();
+                    dispose();
+                }
+        );
 
         setVisible(true);
         setSize(800, 550);
